@@ -39,7 +39,6 @@
         nav a:hover {
             background-color: #2e75b6;
         }
-        /* Footer */
         footer {
             background-color: #17365d;
             color: white;
@@ -48,7 +47,6 @@
             margin-top: 20px;
         }
 
-        /* Responsive Design */
         @media (max-width: 600px) {
             nav {
                 flex-direction: column;
