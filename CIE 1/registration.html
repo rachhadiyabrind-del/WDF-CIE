@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHARUSAT</title>
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\Brind\WDF\CIE 1\common.css">
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\Brind\WDF\CIE 1\registration.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="registration.html">Registration</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="registration" id="registration">
+        <h2>Event Registration</h2>
+
+        <form>
+
+            <label for="name">Student Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="studentid">Student ID</label>
+            <input type="text" id="studentid" name="studentid" placeholder="Enter student ID" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number" required>
+
+            <label for="event">Select Event</label>
+            <select id="event" name="event" required>
+                <option value="">Select an event</option>
+                <option>Technical Seminar</option>
+                <option>Hackathon</option>
+                <option>Web Development Workshop</option>
+                <option>Project Exhibition</option>
+            </select>
+
+            <label>Gender</label>
+
+            <div class="gender">
+                <label>
+                    <input type="radio" name="gender" value="Male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Other">
+                    Other
+                </label>
+            </div>
+
+            <div class="buttons">
+                <button type="submit" class="submit-btn">
+                    Register
+                </button>
+
+                <button type="reset" class="reset-btn">
+                    Reset
+                </button>
+            </div>
+
+        </form>
+    </section>
+    <footer>
+        <p>© 2026 Student Events</p>
+        <p>CHARUSAT, Anand</p>
+    </footer>
+
+</body>
+
+</html>

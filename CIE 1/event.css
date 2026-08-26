@@ -1,0 +1,57 @@
+/* Events */
+        .events {
+            padding: 40px 30px;
+        }
+
+        .events h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #17365d;
+        }
+
+        .event-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .event-card {
+            background-color: white;
+            width: 260px;
+            min-height: 280px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .event-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .event-card h3 {
+            color: #17365d;
+            margin-bottom: 15px;
+        }
+
+        .event-card p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .register-btn {
+            display: inline-block;
+            background-color: #17365d;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .register-btn:hover {
+            background-color: #2e75b6;
+        }
